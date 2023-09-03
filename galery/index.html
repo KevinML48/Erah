@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notre Galery</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+  <!-- or -->
+  <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+</head>
+<body>
+
+    <section class="home">
+        <div class="home-img animate__animated animate__bounceInDown">
+            <img src="../Images/rocket-league.png" class="one">
+        </div>
+        <div class="home-text">
+            <h1>Bienvenue dans <br>l'univers d'Erah</h1>
+            <h5>Découvrez les différents jeux où Erah excelle.</h5>
+            <a href="../Panel-Jeux/index.php" class="btn">En savoir plus</a>
+        </div>
+    </section>
+
+    <div class="main">
+        <div class="row">
+            <li><img src="../Images/rocket-league-petit.png" onclick="slider('../Images/rocket-league.png')"></li>
+        </div>
+
+        <div class="row row2">
+            <li><img src="../Images/point-dinterrogation-petit.png" onclick="slider('../Images/point-dinterrogation.png')"></li>
+        </div>
+
+        <div class="row row3">
+            <li><img src="../Images/point-dinterrogation-petit.png" onclick="slider('../Images/point-dinterrogation.png')"></li>
+        </div>
+    </div>
+    
+    <a href="../index.php" class="bottom"> Retour a l'accueil <i class='bx bxs-home-alt-2'></i></a>
+    
+    <script type="text/javascript">
+        function slider(anything) {
+            document.querySelector('.one').src = anything;
+        };
+    </script>
+
+</body>
+</html>
