@@ -77,7 +77,7 @@ include("./bdd/connection.php");
         <div class="container-box">
             <i class='bx bxs-info-circle'></i>
             <h3>En savoir plus</h3>
-            <a href="savoir-plus/index.html">Details</a>
+            <a href="savoir-plus/index.html" target="_blank">Details</a>
         </div>
 
         <div class="container-box">
