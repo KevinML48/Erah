@@ -11,6 +11,7 @@ include("./bdd/connection.php");
     <title>Erah -Association</title>
     <link rel="stylesheet" href="css/style.css">
 
+    <link rel="shortcut icon" href="Images/logo-erah-sans-fond.png" type="image/x-icon">
     <!-- Box Icons -->
     <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
@@ -40,7 +41,7 @@ include("./bdd/connection.php");
         <ul class="navlist">
             <li><a href="#home" class="active">Home</a></li>
             <li><a href="postuler/index.html">Postuler</a></li>
-            <li><a href="galery/index.html">Galery</a></li>
+            <li><a href="contact/index.html">Contact</a></li>
             <li><a href="Effectifs/index.php">Effectif</a></li>
         </ul>
 

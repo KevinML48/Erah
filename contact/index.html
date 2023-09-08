@@ -1,0 +1,328 @@
+ <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="../Images/logo-erah-sans-fond.png" type="image/x-icon">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== SWIPER CSS ===============--> 
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Nous contacter</title>
+    </head>
+    <body>
+        <!--==================== HEADER ====================-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="../index.php" class="nav__logo">
+                    <i class='bx bxs-contact nav__logo-icon'></i> erah
+                </a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Home</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#featured" class="nav__link">Reseaux</a>
+                        </li>
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class='bx bx-x' ></i>
+                    </div>
+                </div>
+
+                <div class="nav__btns">
+                    <!-- Theme change button -->
+                    <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+                    <div class="nav__shop" id="cart-shop">
+                        <i class='bx bx-planet' ></i>
+                    </div>
+
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class='bx bx-grid-alt' ></i>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <!--==================== CART ====================-->
+        <div class="cart" id="cart">
+            <i class='bx bx-x cart__close' id="cart-close"></i>
+
+            <h2 class="cart__title-center">Plus d'informations</h2>
+
+            <div class="cart__container">
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="../Images/competitions.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Competitions</h3>
+                        <span class="cart__price">Tester votre chance contre nous !
+                        </span>
+
+                        <a href="../competitions/contact.html">
+                        <div class="cart__amount">
+                            <i class='bx bx-search cart__amount-trash'></i>
+                        </div>
+                        </a>
+                    </div>
+                </article>
+                
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="../Images/effectifs.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Effectifs</h3>
+                        <span class="cart__price">Découvrer notre équipe</span>
+
+                        <a href="../Effectifs/index.php">
+                            <div class="cart__amount">
+                                <i class='bx bx-search cart__amount-trash'></i>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+
+                <article class="cart__card">
+                    <div class="cart__box">
+                        <img src="../Images/postuler.png" alt="" class="cart__img">
+                    </div>
+
+                    <div class="cart__details">
+                        <h3 class="cart__title">Postuler</h3>
+                        <span class="cart__price">Tenter votre chance !</span>
+
+                        <a href="../postuler/index.html">
+                            <div class="cart__amount">
+                                <i class='bx bx-search cart__amount-trash'></i>
+                            </div>
+                        </a>
+                    </div>
+                </article>
+            </div>
+        </div>
+
+        <!--==================== MAIN ====================-->
+        <main class="main">
+            <!--==================== HOME ====================-->
+            <section class="home" id="home">
+                <div class="home__container container grid">
+                    <div class="home__img-bg">
+                        <img src="../Images/logo-erah-sans-fond.png" alt="" class="home__img">
+                    </div>
+    
+                    <div class="home__social">
+                        <a href="../Effectifs/index.php" target="_blank" class="home__social-link">
+                            Discord - Profil
+                        </a>
+                        <a href="https://twitter.com/ErahAssociation" target="_blank" class="home__social-link">
+                            Twitter
+                        </a>
+                        <a href="mailto:erah.association@gmail.com" target="_blank" class="home__social-link">
+                            Gmail
+                        </a>
+                    </div>
+    
+                    <div class="home__data">
+                        <h1 class="home__title">VOICI NOTRE <br> ESPACE CONTACT</h1>
+                        <p class="home__description">
+                            Vous retrouverez tout les reseaux afin de pouvoir nous contacter, avec les informations qu'il faut !
+                        </p>
+                        <span class="home__price">Nous sommes la pour vous !</span>
+
+                        <div class="home__btns">
+                            <a href="#featured" class="button button--gray button--small">
+                                Nos reseaux
+                            </a>
+
+                            <a class="button home__button" href="mailto:erah.association@gmail.com">Go !</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== FEATURED ====================-->
+            <section class="featured section container" id="featured">
+                <h2 class="section__title">
+                    Nos Reseaux
+                </h2>
+
+                <div class="featured__container grid">
+                    <article class="featured__card">
+                        <span class="featured__tag">Twitter</span>
+
+                        <img src="../Images/twitter.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Suivez nous !</h3>
+                            <span class="featured__price">ErahAssociation</span>
+                        </div>
+
+                        <a href="https://twitter.com/ErahAssociation" target="_blank">
+                            <button class="button featured__button">Go !</button>
+                        </a>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Discord</span>
+
+                        <img src="../Images/discord.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Yusoh / Sunce</h3>
+                            <span class="featured__price">Nos Profils</span>
+                        </div>
+
+                        <a href="../Effectifs/index.php" target="_blank">
+                            <button class="button featured__button">Go !</button>
+                        </a>
+                    </article>
+
+                    <article class="featured__card">
+                        <span class="featured__tag">Gmail</span>
+
+                        <img src="../Images/gmail.png" alt="" class="featured__img">
+
+                        <div class="featured__data">
+                            <h3 class="featured__title">Contacter nous</h3>
+                            <span class="featured__price">erah.association@gmail.com</span>
+                        </div>
+
+                        <a class="button home__button" href="mailto:erah.association@gmail.com">Go !</a>
+                    </article>
+                </div>
+            </section>
+
+            <!--==================== STORY ====================-->
+            <section class="story section container">
+                <div class="story__container grid">
+                    <div class="story__data">
+                        <h2 class="section__title story__section-title">
+                            Actualités
+                        </h2>
+    
+                        <h1 class="story__title">
+                            Nous sommes en recherches <br> de joueurs
+                        </h1>
+    
+                        <p class="story__description">
+                            Pour proposer vos profils, il suffit de nous envoyer un email,
+                            de nous contacter directement sur discord !
+                        </p>
+    
+                        <a href="../postuler/index.html" class="button button--small">Postuler !</a>
+                    </div>
+
+                    <div class="story__images">
+                        <img src="https://th.bing.com/th/id/R.147379a95bcaa4fe02817aa3ffa49412?rik=U6FtYaR6OWBr8w&riu=http%3a%2f%2fwww.laine-thiebaut.com%2ffichs%2f10490.png&ehk=bOlvprO5Wh7mQSEHS%2fF0czEx9%2b%2fq2JjTu0BaT5YsMCU%3d&risl=&pid=ImgRaw&r=0&sres=1&sresct=1" alt="" class="story__img">
+                        <div class="story__square"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!--==================== TESTIMONIAL ====================-->
+            <section class="testimonial section container">
+                <div class="testimonial__container grid">
+                    <div class="swiper testimonial-swiper">
+                        <div class="swiper-wrapper">
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left'></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    En tant que Président de notre association esportive, j'ai la responsabilité de superviser et de diriger l'ensemble de nos activités. Je suis chargé de prendre des décisions stratégiques, de coordonner nos équipes, et de représenter l'association dans les événements et les négociations avec des partenaires. Mon rôle est essentiel pour assurer la croissance et le succès de notre association.
+                                </p>
+                                <h3 class="testimonial__date">8 septembre 2023</h3>
+                            
+                                <div class="testimonial__perfil">
+                                    <img src="https://th.bing.com/th/id/OIP.ATOycjacHoGRE8HUVfVFaAHaHa?w=215&h=215&c=7&r=0&o=5&pid=1.7" alt="" class="testimonial__perfil-img">
+                            
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">Yusoh</span>
+                                        <span class="testimonial__perfil-detail">Président</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left'></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    En tant que Directeur de communication au sein de notre association esportive, ma mission est de gérer toutes les communications internes et externes. Je suis responsable de la création et de la diffusion de contenus promotionnels, de la gestion des réseaux sociaux, et de la coordination des efforts de communication avec nos membres et notre public. Mon rôle est crucial pour maintenir une image positive de notre association et pour attirer de nouveaux membres et partenaires.
+                                </p>
+                                <h3 class="testimonial__date">15 aout 2023</h3>
+                            
+                                <div class="testimonial__perfil">
+                                    <img src="../Images/point-dinterrogation.png" alt="" class="testimonial__perfil-img">
+                            
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">En recherche</span>
+                                        <span class="testimonial__perfil-detail">Directeur de communication</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="testimonial__card swiper-slide">
+                                <div class="testimonial__quote">
+                                    <i class='bx bxs-quote-alt-left'></i>
+                                </div>
+                                <p class="testimonial__description">
+                                    En tant qu'Assistant communication au sein de notre association esportive, mon rôle consiste à soutenir le Directeur de communication dans ses missions. Je participe à la création de contenus, à la gestion des réseaux sociaux, et à la coordination des activités de communication. Mon travail contribue à renforcer la visibilité et la notoriété de notre association auprès de notre communauté et du grand public.
+                                </p>
+                                <h3 class="testimonial__date">27 aout 2023</h3>
+                            
+                                <div class="testimonial__perfil">
+                                    <img src="../Images/point-dinterrogation.png" alt="" class="testimonial__perfil-img">
+                            
+                                    <div class="testimonial__perfil-data">
+                                        <span class="testimonial__perfil-name">En recherche</span>
+                                        <span class="testimonial__perfil-detail">Assistant communication</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="swiper-button-next">
+                            <i class='bx bx-right-arrow-alt' ></i>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <i class='bx bx-left-arrow-alt' ></i>
+                        </div>
+                    </div>
+
+                    <div class="testimonial__images">
+                        <div class="testimonial__square"></div>
+                        <img src="https://th.bing.com/th/id/OIP.JBncFq4MBFuWiPtQHMsgqQHaE6?pid=ImgDet&rs=1" alt="" class="testimonial__img">
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up"> 
+            <i class='bx bx-up-arrow-alt scrollup__icon' ></i>
+        </a>
+
+        <!--=============== SWIPER JS ===============-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>

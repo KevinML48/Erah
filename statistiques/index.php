@@ -29,6 +29,8 @@ if (!$result) {
         rel="stylesheet"
     />
 
+    <link rel="shortcut icon" href="../Images/logo-erah-sans-fond.png" type="image/x-icon">
+
     <link
         rel="stylesheet"
         href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"

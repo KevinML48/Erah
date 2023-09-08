@@ -21,6 +21,8 @@ $result = mysqli_query($connexion, $sql);
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
 
+  <link rel="shortcut icon" href="../Images/logo-erah-sans-fond.png" type="image/x-icon">
+
   <link rel="stylesheet"
     href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
