@@ -12,7 +12,7 @@ if (!$resultPerformances) {
 }
 
 // Exécuter une requête SQL pour récupérer les données des joueurs Rocket League
-$sql = "SELECT pseudo, rang, image FROM rocketleague";
+$sql = "SELECT id, pseudo, rang, image FROM rocketleague";
 $resultRocketLeague = mysqli_query($connexion, $sql);
 
 // Vérifier si la requête a réussi
@@ -130,18 +130,19 @@ if (!$resultActualites) {
             <!-- End of Analyses -->
 
             <!-- New Users Section -->
-            <div class="new-users">
+<div class="new-users">
     <h2>Leur Profils</h2>
     <div class="user-list">
         <?php
         // Parcourir les résultats de la requête Rocket League et afficher chaque joueur
         while ($row = mysqli_fetch_assoc($resultRocketLeague)) {
+            $id = $row["id"]; // Récupérer l'ID du joueur
             $pseudo = $row["pseudo"];
             $rang = $row["rang"];
             $image = $row["image"];
             ?>
             <div class="user">
-                <a href="/Joueur/index.html">
+                <a href="../Joueurs/information.php?id=<?php echo $id; ?>"> <!-- Lien avec l'ID du joueur -->
                     <img src="<?php echo $image; ?>">
                     <h2><?php echo $pseudo; ?></h2>
                     <p><?php echo $rang; ?></p>
@@ -149,10 +150,10 @@ if (!$resultActualites) {
             </div>
             <?php
         }
-
+    
         // Libérer les résultats de la requête Rocket League
         mysqli_free_result($resultRocketLeague);
-
+    
         // Fermer la connexion à la base de données
         mysqli_close($connexion);
         ?>
@@ -165,6 +166,13 @@ if (!$resultActualites) {
         </div>
     </div>
 </div>
+Avec cette modification, lorsque vous cliquez sur la balise <a> pour un joueur, vous serez redirigé vers information.php avec l'ID du joueur dans l'URL, comme vous l'avez mentionné précédemment. Assurez-vous que le chemin du fichier information.php est correct par rapport à la localisation actuelle de la page.
+
+
+
+
+
+
 
             <!-- End of New Users Section -->
 
