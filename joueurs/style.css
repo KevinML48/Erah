@@ -22,7 +22,7 @@
 
 .logo {
     font-size: 25px;
-    color: #031540;
+    color: #000000;
     text-decoration: none;
     font-weight: 700;
 }
@@ -38,12 +38,13 @@
 
 .navbar a:hover,
 .navbar a.active {
-    color: #00ABF0;
+    color: #000000;
+    font-weight: bolder;
 }
 
 .home {
     height: 100vh;
-    background: linear-gradient(-90deg, #031540 65%, #fff 34%);
+    background: linear-gradient(-90deg, #5c0000 65%, #292929 34%);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -69,7 +70,7 @@
     font-size: 40px;
     color: transparent;
     -webkit-text-stroke: .5px #fff;
-    background-image: linear-gradient(#00abf0, #00abf0);
+    background-image: linear-gradient(#292929, #292929);
     background-repeat: no-repeat;
     -webkit-background-clip: text;
     background-position: -410px 0;
@@ -109,29 +110,29 @@
     border: 2px solid #fff;
     border-radius: 50%;
     font-size: 20px;
-    color: #00abf0;
+    color: #ffffff;
     text-decoration: none;
     margin-left: 12px;
     transition: .5s;
 }
 
 .home-sci a:hover {
-    background: #00abf0;
+    background: #000000;
     color: #fff;
-    border-color: #00abf0;
-    box-shadow: 0 0 10px #00abf0;
+    border-color: #ffffff;
+    box-shadow: 0 0 10px #000000;
 }
 
 .btn {
     padding: 12px 35px;
-    background: #00abf0;
+    background: #ffffff;
     border-radius: 40px;
     font-size: 17px;
-    color: #fff;
+    color: #000000;
     text-decoration: none;
     font-weight: 600;
     letter-spacing: 1px;
-    box-shadow: 0 0 10px #00abf0;
+    box-shadow: 0 0 10px #ff0000;
     transition: .5s;
 }
 
@@ -142,7 +143,7 @@
 /* Mettez cette règle CSS à l'intérieur de votre media query pour les écrans de petite taille */
 @media screen and (max-width: 768px) {
     body {
-        background-color: #031540; /* Fond bleu */
+        background-color: #380000; /* Fond bleu */
         color: #ffffff; /* Texte blanc */
     }
 

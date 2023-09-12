@@ -166,13 +166,6 @@ if (!$resultActualites) {
         </div>
     </div>
 </div>
-Avec cette modification, lorsque vous cliquez sur la balise <a> pour un joueur, vous serez redirigé vers information.php avec l'ID du joueur dans l'URL, comme vous l'avez mentionné précédemment. Assurez-vous que le chemin du fichier information.php est correct par rapport à la localisation actuelle de la page.
-
-
-
-
-
-
 
             <!-- End of New Users Section -->
 
@@ -197,13 +190,14 @@ Avec cette modification, lorsque vous cliquez sur la balise <a> pour un joueur, 
                 $rank = $row["rank"];
                 $jour = $row["jour"];
                 $resultat = $row["resultat"];
+                $details = $row["details"];
                 ?>
                 <tr>
                     <td><?php echo $equipe; ?></td>
                     <td><?php echo $rank; ?></td>
                     <td><?php echo $jour; ?></td>
                     <td><?php echo $resultat; ?></td>
-                    <td><a href="#">Détails</a></td>
+                    <td><a href="<?php echo $details; ?>">Détails</a></td>
                 </tr>
                 <?php
             }
