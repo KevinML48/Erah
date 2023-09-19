@@ -4,6 +4,7 @@ $serveur = "localhost";  // Adresse du serveur MySQL
 $utilisateur = "root"; // Nom d'utilisateur MySQL
 $motDePasse = ""; // Mot de passe MySQL
 $baseDeDonnees = "erah"; // Nom de la base de données
+// $baseUrl = "http://erah.great-site.net"; 
 
 // Créez une connexion à la base de données
 $connexion = new mysqli($serveur, $utilisateur, $motDePasse, $baseDeDonnees);
