@@ -1,6 +1,6 @@
 <?php
 // Informations de connexion à la base de données
-$serveur = "erah.great-site.net";  // Adresse du serveur MySQL
+$serveur = "localhost";  // Adresse du serveur MySQL
 $utilisateur = "root"; // Nom d'utilisateur MySQL
 $motDePasse = ""; // Mot de passe MySQL
 $baseDeDonnees = "erah"; // Nom de la base de données
